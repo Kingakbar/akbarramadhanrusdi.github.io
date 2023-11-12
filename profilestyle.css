@@ -1,0 +1,51 @@
+body {
+    background-color: #F8F7F1;
+}
+
+.img-profile {
+    margin-top: 100px;
+}
+
+.profile-title-content {
+    margin-top: 100px;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.alumni {
+    font-family: 'Poppins';
+}
+
+#map {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+@media (max-width: 575.98px) {
+    .img-profile {
+        margin-left: 70px;
+    }
+
+    .profile-title-content {
+        margin-top: 50px;
+        font-family: 'Poppins';
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .alumni {
+        font-family: 'Poppins';
+        text-align: center;
+    }
+
+    .logo-alumni {
+        margin-left: 100px;
+    }
+
+    #map {
+        height: 300px;
+        width: 450px;
+        border-radius: 20px;
+    }
+}
