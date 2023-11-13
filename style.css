@@ -281,29 +281,48 @@ body {
 
 
     .jumbotron .img-profile {
-        width: 400px;
-        height: 410px;
+        width: 300px;
+        height: 310px;
         margin-top: 10px;
-        margin-right: 40px;
+        margin-left: 10px;
+
     }
 
     .ic-sosmed {
-        margin-left: 135px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .jumbotron .btn-contentcv {
-        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jumbotron .hire-me {
+        width: 100px;
+    }
+
+    .jumbotron .resume {
+        width: 100px;
+
     }
 
 
     .about-content {
-        margin-top: 70px;
-        height: 600px;
-        width: 400px;
+        height: 500px;
+        width: 320px;
         background-color: white;
-        padding: 50px;
-        border-radius: 40px;
+        padding: 20px 40px;
+        border-radius: 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+
+    .about-content img {
+        height: 320px;
+        width: 240px;
+        margin: auto;
     }
 
     .about-content .content-title {
@@ -315,13 +334,27 @@ body {
 
 
     .img-project-1 {
-        height: 490px;
+        height: 100px;
         padding: 30px;
-        width: 350px;
-        background-color: white;
-        border-radius: 15px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-        margin-left: 50px;
+        width: 300px;
+
+
+    }
+
+    .img-project-1 h5 {
+        font-family: 'Poppins';
+        font-size: 18px;
+    }
+
+    .img-project-1 p {
+        font-family: 'Poppins';
+        font-weight: 300;
+        color: #A9A9A9;
+        font-size: 12px;
+    }
+
+    .img-project-1 .main-img {
+        width: 100px;
     }
 
 
